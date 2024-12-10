@@ -63,6 +63,6 @@ git remote -v
 3. git checkout <commitHash> -- <filepath> --> To restore changes of a specific file specific commit.
 4. git checkout <commitHash>  -->  To restore changes of specific commit
 5. git diff HEAD <commithash> --> To compare changes between current and previous commit
-6. git diff HEAD -- <filepath> --> This command is used to compare if my app.js is working finr in previous commit.
+6. git diff HEAD <commithash> -- <filepath> --> This command is used to compare if my app.js is working finr in previous commit.
 ```
    
