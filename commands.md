@@ -14,8 +14,8 @@
 3. git log
 
 ## If want to switch back to the previous commit
-4. git restore <commitHash>
-5. git restore --staged {filename eg.test.txt}
+4.git restore --source 110c1d7 --staged --worktree -- .
+5.git restore --source 110c1d7 --staged --worktree -- <filename>
 
 ## To switch back to the cloned stage of file
 6. git restore {filename eg.test.txt}
