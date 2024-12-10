@@ -17,11 +17,8 @@
 4.git restore --source {commitHash} --staged --worktree -- .
 5.git restore --source {commitHash} --staged --worktree -- <filename>
 
-## To switch back to the cloned stage of file
-6. git restore {filename eg.test.txt}
-
 ## To pull changes
-7. git pull origin main/master
+6. git pull origin main/master
 
 ## Basic Commands
 ```
