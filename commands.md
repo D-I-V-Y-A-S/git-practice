@@ -14,13 +14,14 @@
 3. git log
 
 ## If want to switch back to the previous commit
-4. git restore --staged {filename eg.test.txt}
+4. git restore <commitHash>
+5. git restore --staged {filename eg.test.txt}
 
 ## To switch back to the cloned stage of file
-5. git restore {filename eg.test.txt}
+6. git restore {filename eg.test.txt}
 
 ## To pull changes
-6. git pull origin main/master
+7. git pull origin main/master
 
 ## Basic Commands
 ```
