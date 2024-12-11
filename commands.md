@@ -71,3 +71,7 @@ git push origin Branch-3 --force
 git reset --hard {commitHash}
 git push origin Branch-3 --force
 ```
+# Reset Hard and Soft
+git reset --soft HEAD~1
+git reset --hard HEAD~1
+
