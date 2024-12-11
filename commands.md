@@ -62,4 +62,12 @@ git remote -v
 5. git diff HEAD <commithash> --> To compare changes between current and previous commit
 6. git diff HEAD <commithash> -- <filepath> --> This command is used to compare if my app.js is working finr in previous commit.
 ```
-   
+# Delete
+```
+git reset --hard HEAD~1
+git push origin Branch-3 --force
+```
+```
+git reset --hard {commitHash}
+git push origin Branch-3 --force
+```
